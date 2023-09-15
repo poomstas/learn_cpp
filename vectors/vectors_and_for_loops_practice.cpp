@@ -7,6 +7,11 @@ int main() {
     
     // Part 1: declare and define a vector {5.0, 5.0, 5.0} and print it out
     vector<float> vectorvar(3, 5.0);
+
+    /* For C++11, you can also define vectors like so:
+
+    vector<int> myvector = {5, 4, 9, 1, 10};
+    */
     
     for (int i = 0; i < vectorvar.size(); i++) {
         cout << vectorvar[i] << " ";
