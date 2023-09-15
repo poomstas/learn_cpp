@@ -1,0 +1,1 @@
+g++ main.cpp gaussian.cpp -o main; ./main
