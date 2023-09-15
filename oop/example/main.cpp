@@ -1,6 +1,7 @@
 #include <iostream>
 
 // class declaration. Still need this here, even though it's defined in gaussian.cpp.
+// This can be put in a separate header (.h) file.
 class Gaussian {
 	private:
 		float mu, sigma2;
