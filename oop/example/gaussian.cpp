@@ -3,31 +3,6 @@
 
 // Moved below to gaussian.h header file. Note that both gaussian.cpp and main.cpp can both refer to the class def in the header file.
 
-// class Gaussian {
-//     // private variable declaration. private variables and functions are only available within your class code
-//     private:
-//         float mu, sigma2;
-
-//     // public variable and function declarations. accessible within your class and also by an object of the class
-//     public:
-//         // constructor functions
-//         Gaussian ();
-//         Gaussian (float, float);
-
-//         // change value of average and standard deviation 
-//         void setMu(float);
-//         void setSigma2(float);
-
-//         // output value of average and standard deviation
-//         float getMu();
-//         float getSigma2();
-
-//         // functions to evaluate 
-//         float evaluate (float);
-//         Gaussian multiply (Gaussian);
-//         Gaussian add (Gaussian);
-// };
-
 // constructor function definitions
 // Determines how a new object will be initiated. Analogous to Python's def __init__(self):
 Gaussian::Gaussian() {                                  // 	Set default values. Use: Gaussian defaultgaussian;
