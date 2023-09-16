@@ -1,6 +1,8 @@
 #include <iostream>
 #include "gaussian.h"
 
+// using namespace std; // Use this to remove all std::
+
 // class declaration. Still need this here, even though it's defined in gaussian.cpp.
 // This can be put in a separate header (.h) file.
 // Moved to separate header file (gaussian.h). Header files don't need to be included in g++ compile.
