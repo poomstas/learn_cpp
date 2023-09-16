@@ -1,11 +1,11 @@
 #include <math.h>
 
 class Gaussian {
-    // private variable declaration
+    // private variable declaration. private variables and functions are only available within your class code
     private:
         float mu, sigma2;
 
-    // public variable and function declarations
+    // public variable and function declarations. accessible within your class and also by an object of the class
     public:
         // constructor functions
         Gaussian ();
@@ -26,6 +26,7 @@ class Gaussian {
 };
 
 // constructor function definitions
+// Determines how a new object will be initiated. Analogous to Python's def __init__(self):
 Gaussian::Gaussian() {                                  // 	Set default values. Use: Gaussian defaultgaussian;
     mu = 0;
     sigma2 = 1; 
