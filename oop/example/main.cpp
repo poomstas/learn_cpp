@@ -6,6 +6,7 @@
 // class declaration. Still need this here, even though it's defined in gaussian.cpp.
 // This can be put in a separate header (.h) file.
 // Moved to separate header file (gaussian.h). Header files don't need to be included in g++ compile.
+// Note that both gaussian.cpp and main.cpp can both refer to the class def in the header file.
 
 int main () {
 	Gaussian defaultgaussian; // See first "constructor function definition" in gaussian.cpp
