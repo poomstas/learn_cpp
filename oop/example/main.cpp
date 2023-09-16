@@ -1,29 +1,9 @@
 #include <iostream>
+#include "gaussian.h"
 
 // class declaration. Still need this here, even though it's defined in gaussian.cpp.
 // This can be put in a separate header (.h) file.
-class Gaussian {
-	private:
-		float mu, sigma2;
-
-	public:
-		// constructor functions
-		Gaussian ();
-		Gaussian (float, float);
-
-		// change value of average and standard deviation 
-		void setMu(float);
-		void setSigma2(float);
-
-		// output value of average and standard deviation
-		float getMu();
-		float getSigma2();
-
-		// functions to evaluate 
-		float evaluate (float);
-		Gaussian multiply (Gaussian);
-		Gaussian add (Gaussian);
-};
+// Moved to separate header file (gaussian.h). Header files don't need to be included in g++ compile.
 
 int main () {
 	Gaussian defaultgaussian; // See first "constructor function definition" in gaussian.cpp
