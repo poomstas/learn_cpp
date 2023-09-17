@@ -1,0 +1,2 @@
+# For x86_64
+g++ -shared -o print_msg.so -fPIC print_msg_func.cpp

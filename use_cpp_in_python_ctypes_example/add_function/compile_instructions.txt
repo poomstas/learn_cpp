@@ -1,0 +1,2 @@
+# For x86_64
+g++ -shared -o add_func.so -fPIC add_func.cpp
