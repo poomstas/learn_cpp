@@ -10,6 +10,7 @@ class Gaussian {
         Gaussian (float, float);
 
         // change value of average and standard deviation 
+        // Set and get functions are specifically for accessing and assigning values to private variables.
         void setMu(float);
         void setSigma2(float);
 
