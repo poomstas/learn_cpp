@@ -1,1 +1,1 @@
-g++ main.cpp gaussian.cpp -o main; ./main
+g++ main_gaussian.cpp gaussian.cpp -o main; ./main
