@@ -2,8 +2,6 @@
 #define RECTANGLE_H
 #include <iostream>
 
-using namespace std;
-
 class Rectangle {
     private:
         float width;
