@@ -24,6 +24,7 @@ class Rectangle {
 
         // Rectangle functions
         float calculateArea();
+        void compareAreas(Rectangle);
 };
 
 #endif /* RECTANGLE_H */
