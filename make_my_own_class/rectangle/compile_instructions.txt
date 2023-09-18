@@ -1,0 +1,2 @@
+
+g++ main.cpp rectangle.cpp -o main; ./main
