@@ -1,17 +1,12 @@
-#include <iostream>
+#ifndef MATRIX_H
+#define MATRIX_H
+
+// #include <iostream>
 #include <vector>
 
 using namespace std;
 
 // Header file for the Matrix class
-
-/* 
-**  TODO:
-**    Declare the following private variables:
-**      a 2D float vector variable called grid
-**      a vector size_type variable called rows
-**      a vector size_type variable called cols
-*/
 
 class Matrix {
     private:
@@ -22,11 +17,20 @@ class Matrix {
     public:
         // Constructor functions
         Matrix();
-        Matrix(vector<float>, vector<float>);
+        Matrix(vector<vector<float>>);
 
         // Set functions. Set and get functions are specifically for accessing and assigning values to private variables.
+        void setGrid(vector<vector<float>>);
 
         // Get functions
+        vector<vector<float>> getGrid();
+        vector<float>::size_type getCols();
+        vector<float>::size_type getRows();
 
-
+        // Matrix Functions
+        Matrix matrix_transpose();
+        Matrix matrix_addition(Matrix);
+        void print();
 };
+
+#endif /* MATRIX_H */
