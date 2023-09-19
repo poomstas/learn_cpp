@@ -7,9 +7,9 @@ Rectangle::Rectangle() {
     height = 1;
 }
 
-Rectangle::Rectangle(float initial_width, float initial_height) {
-    width = initial_width;
-    height = initial_height;
+Rectangle::Rectangle(float width, float height) {
+    this->width = width;
+    this->height = height;
 }
 
 
