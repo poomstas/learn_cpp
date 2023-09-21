@@ -23,7 +23,18 @@ int main() {
 
     tuple<string, float> output = multiple_output_function(input_sentence, input_number);
     
-    // How to access the tuple values.
+    // How to access the tuple values using get.
     cout << get<0>(output) << endl;
     cout << get<1>(output) << endl;
+    cout << endl;
+
+    // Alternative way to access the tuple values (using std::tie).
+    string output_sentence;
+    float output_float;
+
+    std::tie(output_sentence, output_float) = multiple_output_function(input_sentence, input_number);
+
+    cout << output_sentence << endl;
+    cout << output_float << endl;
+
 }
