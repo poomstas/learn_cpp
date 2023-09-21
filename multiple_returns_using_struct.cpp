@@ -3,6 +3,13 @@
 
 using namespace std;
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+// See a newer way of dealing with multiple returns 
+//    - multiple_returns_using_tuples.cpp
+//    - multiple_returns_using_pair.cpp
+//    - multiple_returns_using_structured_bindings.cpp
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 // C++ does not by default return multiple items.
 // Here's how to work around that limitation -> return a struct
 
