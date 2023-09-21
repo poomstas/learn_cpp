@@ -15,7 +15,7 @@ tuple<string, int> CreatePerson() { // Returns a tuple outpu
 
 int main() {
     // Defining person using auto (for more readability)
-   auto [name, age] = CreatePerson(); // Structured bindings!! Very similar to Python. <- make sure the linter version is C++17 or newer.
+    auto [name, age] = CreatePerson(); // Structured bindings!! Very similar to Python. <- make sure the linter version is C++17 or newer.
 
     cout << "Name: " << name << endl;
     cout << "Age:  " << age << endl;
