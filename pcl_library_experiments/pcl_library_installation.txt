@@ -1,0 +1,28 @@
+# On MacOS
+
+brew install boost
+
+brew install eigen
+
+brew install flann
+
+brew install vtk
+
+
+
+
+
+
+# General
+
+git clone https://github.com/PointCloudLibrary/pcl.git
+
+mkdir BUILD
+
+cd BUILD
+
+cmake ..
+
+make
+
+sudo make install
