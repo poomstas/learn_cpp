@@ -1,0 +1,7 @@
+How to build an executable that uses the pcd library.
+
+Make sure the CMakeLists.txt file is present in the current directory.
+mkdir build
+cd build
+cmake ..
+make
