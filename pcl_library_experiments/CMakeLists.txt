@@ -1,3 +1,5 @@
+# Reference: https://pointclouds.org/documentation/tutorials/using_pcl_pcl_config.html#using-pcl-pcl-config
+
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(pcd_write)
 find_package(PCL 1.3 REQUIRED)
